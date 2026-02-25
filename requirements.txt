@@ -1,0 +1,7 @@
+crewai
+langchain
+langchain_community
+faiss-cpu
+pypdf
+sentence-transformers
+crewai

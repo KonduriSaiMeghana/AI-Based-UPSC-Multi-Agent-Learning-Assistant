@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Debug/Logs
+debug_full.txt
+debug_output.txt
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+dummy_article.txt
+agent_prompts.txt
+test_*.py
+debug_*.py
+output/
