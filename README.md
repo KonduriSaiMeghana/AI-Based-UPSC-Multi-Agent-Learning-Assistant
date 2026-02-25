@@ -53,6 +53,9 @@ crewai_exam_generator/
 4.  **Execution**:
     ```bash
     python main.py
+
+    #For interface
+    streamlit run streamlit_app.py
     ```
     - The script will prompt you to paste a news article.
     - Press Enter twice to submit the text.
@@ -67,7 +70,3 @@ crewai_exam_generator/
 - **Framework**: CrewAI
 - **Embeddings**: Uses OpenAI Embeddings (via CrewAI's default) or FAISS/Chroma for the PDF search tool.
 - **PDF Processing**: Uses `crewai_tools.PDFSearchTool` to read and index PYQs.
-
-## Troubleshooting
-- **PDF Reading Issues**: If the PYQs are image-only (scanned), the text extraction might fail. Ensure PDFs have selectable text or use an OCR tool to convert them first.
-- **API Errors**: Ensure your API key has sufficient credits.
